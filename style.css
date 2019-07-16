@@ -1,0 +1,50 @@
+.hu-background-color_button-background, #hu-message-input .left-arrow, .open .keyword-switch, #hu-footer-input-mobile .back-button, #hu-footer-input-mobile .powered-by-text a, #hu-footer-input-mobile .keyword-button, #hu-footer-input-mobile .skip-pause-button, .Card-catalogue_content_attribute::before, .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside), .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside):hover 
+{
+    background-color: rgb(123, 201, 34);
+}
+.hu-background-color_button-background-light, .hu-background-color_button-background-light_hover:hover, #hu-message-input .hu-input-box .hu-input-menu .hu-input-menu-buttons .menu-button:hover, #hu-message-input .left-arrow:hover, .hu-input-multi_button.active:hover, .p-menu-button:hover {
+    background-color: rgb(153, 231, 64);
+}
+.hu-border-color_button-background-dark, #hu-message-input .dual .menu-button:last-child:hover 
+{
+    border-color: rgb(73, 151, 0);
+}
+.hu-color_button-text, .hu-input-multi_button.active .button-text, #hu-footer-input-mobile .keyword-button, .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) 
+{
+    color: rgb(255, 255, 255);
+}
+#app-landbot, button, input, textarea {
+    font-family: Roboto, sans-serif;
+}
+#app-landbot, button, input, textarea {
+    font-size: 18px;
+}
+.hu-message-avatar_img {
+    transform: scale(1.3);
+}
+.hu-background-color_bot-message-background, .hu-background-color_header-background, 
+.hu-message.brand .hu-message-info.visible + .hu-message-content::before {
+    background-color: rgb(255, 255, 255);
+}
+.hu-color_user-message-text {
+    color: rgb(255, 255, 255);
+}
+.hu-background-color_textarea-background {
+    background-color: rgb(255, 255, 255);
+}
+.hu-border-color_textarea-border {
+    border-color: rgb(123, 201, 34);
+}
+.hu-textarea-input-container:focus {
+    box-shadow: 0px 0px 14px 1px #7bc922
+}
+.hu-fill_textarea-border, .hu-textarea-heavy .send svg, .hu-textarea-light .send svg, #hu-footer-input-mobile .attach svg {
+    fill: rgb(123, 201, 34);
+}
+.hu-color_bot-message-text, .hu-color_header-text {
+    color: rgb(17, 11, 89);
+}
+.hu-background-color_user-message-background, .hu-background-color_accent, 
+#hu-bot-progress-bar::after, #w-cards a .hu-st-italic {
+    background-color: rgb(123, 201, 34);
+}
