@@ -25,14 +25,17 @@ var num = 0;
 
 var botMessage = $('#botMessage_0 p.hu-message-text');
 var botMessagePar = $('#botMessage_0');
-var chooseGift = botMessagePar.find('div.hu-message-image');
+var giftOption = botMessagePar.find('div.hu-message-image');
 var botOption = $('#botOption_0 span');
 var userInput = $('#userInput'); 
 var userMessage = $('#userMessage_0 p');
+var chooseGift = $('#yesNo');
 
 botMessage.html(questions[num]);
 botOption.html('Tuyệt, hãy bắt đầu!');
+chooseGift.hide();
 $('#userMessage_0').hide();
+
 currentTime('userMessage_0');
 currentTime(botMessagePar.prop('id'));
 
@@ -70,7 +73,7 @@ function chat() {
         setTimeout(changeQuestion, 2000);
         break;
       case 3:
-        chooseGift.css('display','');
+        giftOption.css('display','');
         botMessage.show();
         typing(true);
         ++num;
@@ -136,9 +139,9 @@ function changeQuestion() {
     });
   } else if (num == 3) {
     botMessage.hide();
-    chooseGift = botMessagePar.find('div.hu-message-image');
-    chooseGift.css('display','inline-block');
-    chooseGift.find('p').html(questions[num]);
+    giftOption = botMessagePar.find('div.hu-message-image');
+    giftOption.css('display','inline-block');
+    giftOption.find('p').html(questions[num]);
   }
 }
 
